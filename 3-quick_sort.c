@@ -10,10 +10,10 @@ void quick_sort(int *array, size_t size);
  */
 void swap(int *a, int *b)
 {
-	int t;
-	t = *a;
-	*a = *b;
-	*b = t;
+int t;
+t = *a;
+*a = *b;
+*b = t;
 }
 /**
  * lomuto_partition - Entry function
